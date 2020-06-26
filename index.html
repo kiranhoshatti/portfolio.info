@@ -9,12 +9,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/dont.css">
+
     <link rel="stylesheet" href="css/mystyle.css">
-    <script src="ks/bootstrapjquery.js"></script>
+
     <script src="js/bootstrap.js"></script>
-    <script src="js/proper.js"></script>
+  
     <title>Portfolio</title>
 </head>
     
@@ -31,14 +30,14 @@
 
             </button>
 
-            <a href="#" class="navbar-brand"><h3>Portfolio</h3></a>
-            <div class="collapse navbar-collapse" id="Navbar">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item" ><a  class="nav-link" href="#About"> About Me </a> </li>
-                    <li class="nav-item"><a  class="nav-link" href="#Skills"> Skils </a> </li>
-                    <li class="nav-item"><a  class="nav-link" href="#Contacts"> Contacts </a> </li>
-                      <li class="nav-item"><a  class="nav-link" href="https://calendar.google.com/calendar/embed?src=1t8aa75r2r851gnf6de09codfc%40group.calendar.google.com&ctz=Asia%2FKolkata"> Schedule </a> </li>
-               
+            <a href="#bg-img" class="navbar-brand"><h3>Protfolio</h3></a>
+            <div class="collapse navbar-collapse  navbar-right scroll" id="Navbar">
+                <ul class="navbar-nav ml-auto site-navbar-targer scrolled awake navbar-right scroll">
+                    <li class="nav-item" ><a  class="nav-link "  href="#About"> About Me </a> </li>
+                    <li class="nav-item"><a  class="nav-link " href="#Skills"> Skils </a> </li>
+                    <li class="nav-item"><a  class="nav-link " href="#Project"> Project </a> </li>
+                    <li class="nav-item"><a  class="nav-link " href="#Contacts"> Contacts </a> </li> 
+                  
                 </ul>
             </div>
         </div>
@@ -81,6 +80,9 @@
                                             </tr>
                                              <tr>
                                                 <td class="text-muted">Mobile No</td><td>:</td> <td>325487854</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-muted">Sechudle</td><td>:</td> <td>   <a class="Sechudle fa fa-calendar-check-o" aria-hidden="true"  href="https://calendar.google.com/calendar/embed?src=1t8aa75r2r851gnf6de09codfc%40group.calendar.google.com&ctz=Asia%2FKolkata"> My Sechudle </a> </td>
                                             </tr>
                                         </table>
                                     </div>
@@ -155,6 +157,106 @@
         </div>
     </div>
 
+
+
+
+
+
+<!-- MAIN (Center website) -->
+    <div id="Project" class="mt-5">
+        <div class="container">
+            <span class="bg-primary text-white">My Project</span><hr class="bg-primary">
+            <div class="row">
+                <div class="col">
+                    <div class="card bg-white">
+                    <div id="myBtnContainer">
+                    <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+                    <button class="btn" onclick="filterSelection('nature')"> WEB</button>
+                    <button class="btn" onclick="filterSelection('cars')"> Python</button>
+                    <button class="btn" onclick="filterSelection('people')"> JAVA</button>
+                    </div>
+                    
+                    <!-- Portfolio Gallery Grid -->
+                    <div class="row">
+                        <div class="column people">
+                            <div class="content">
+                            <img src="img/java3.png" height="250" alt="Car" style="width:100%">
+                            <h4>Encrypt Decript</h4>
+                            <p>Lorem ipsum dolor..</p>
+                            </div>
+                        </div>
+                        <div class="column nature">
+                            <div class="content">
+                            <img src="img/web1.png"   height="250" alt="Mountains" style="width:100%">
+                            <h4>Registration Form </h4>
+                            <p>Lorem ipsum dolor..</p>
+                            </div>
+                        </div>
+                       
+                        <div class="column nature">
+                            <div class="content">
+                            <img src="img/web3.png" height="250" alt="Nature" style="width:100%">
+                            <h4>Animated site</h4>
+                            <p>Lorem ipsum dolor..</p>
+                            </div>
+                        </div>
+                        
+                        <div class="column cars">
+                            <div class="content">
+                            <img src="img/python1.png"  height="250" alt="Car" style="width:100%">
+                            <h4>Crud Operation</h4>
+                            <p>Lorem ipsum dolor..</p>
+                            </div>
+                        </div>
+                        
+                        <div class="column cars">
+                            <div class="content">
+                            <img src="img/python333.png" height="250" alt="Car" style="width:100%">
+                            <h4>Image Capture</h4>
+                            <p>Lorem ipsum dolor..</p>
+                            </div>
+                        </div>
+                        
+                      
+                        <div class="column people">
+                            <div class="content">
+                            <img src="img/java1.jpg"  height="250"alt="Car" style="width:100%">
+                            <h4>Mail Service</h4>
+                            <p>Lorem ipsum dolor..</p>
+                            </div>
+                        </div>
+                        <div class="column people">
+                            <div class="content">
+                            <img src="img/java2.png"  height="250" alt="Car" style="width:100%">
+                            <h4>Chat System</h4>
+                            <p>Lorem ipsum dolor..</p>
+                            </div>
+                        </div>
+                        <div class="column cars">
+                            <div class="content">
+                            <img src="img/python2.png"  height="250" alt="Car" style="width:100%">
+                            <h4>Bill Generate</h4>
+                            <p>Lorem ipsum dolor..</p>
+                            </div>
+                        </div>
+                        <div class="column nature">
+                            <div class="content">
+                            <img src="img/web22.jpg" height="250" alt="Lights" style="width:100%">
+                            <h4>Templates</h4>
+                            <p>Lorem ipsum dolor..</p>
+                            </div>
+                        </div>
+                        <!-- END GRID -->
+                    </div>
+                </div>
+             </div>
+              </div>
+        </div>
+ 
+    </div>
+
+
+
     <!--Contacts-->
     <div id="Contacts"> 
         <div class="container mt-5">
@@ -165,13 +267,13 @@
                       <div class="card-header">
                           <h4 class="mt-3">Contact Me below</h4>
                         <div class="form-group mt-3">
-                            <input type="text" placeholder="User Name" class="form-control mx-2" name="name">
+                            <input type="text" placeholder="User Name" class="form-control mx-2" name="name" >
                          </div>
                          <div class="form-group mt-3">
                             <input type="text" placeholder="Email" class="form-control mx-2" name="email">
                          </div>
                          <div class="form-group mt-3">
-                           <textarea class="form-control" placeholder="Write ur suggesion........" name="text" cols="20" rows="5"></textarea>
+                           <textarea class="form-control" placeholder="Write ur suggesion........" name="suggestion/comment"  cols="20" rows="5"></textarea>
                          </div>
 
                          <div class="form-group mt-3">
@@ -197,5 +299,67 @@
         </div>
     </div>
  
+    <script>
+        filterSelection("all")
+        function filterSelection(c) {
+          var x, i;
+          x = document.getElementsByClassName("column");
+          if (c == "all") c = "";
+          for (i = 0; i < x.length; i++) {
+            w3RemoveClass(x[i], "show");
+            if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+          }
+        }
+        
+        function w3AddClass(element, name) {
+          var i, arr1, arr2;
+          arr1 = element.className.split(" ");
+          arr2 = name.split(" ");
+          for (i = 0; i < arr2.length; i++) {
+            if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+          }
+        }
+        
+        function w3RemoveClass(element, name) {
+          var i, arr1, arr2;
+          arr1 = element.className.split(" ");
+          arr2 = name.split(" ");
+          for (i = 0; i < arr2.length; i++) {
+            while (arr1.indexOf(arr2[i]) > -1) {
+              arr1.splice(arr1.indexOf(arr2[i]), 1);     
+            }
+          }
+          element.className = arr1.join(" ");
+        }
+        
+        
+        // Add active class to the current button (highlight it)
+        var btnContainer = document.getElementById("myBtnContainer");
+        var btns = btnContainer.getElementsByClassName("btn");
+        for (var i = 0; i < btns.length; i++) {
+          btns[i].addEventListener("click", function(){
+            var current = document.getElementsByClassName("active");
+            current[0].className = current[0].className.replace(" active", "");
+            this.className += " active";
+          });
+        }
+        </script>
+        
+            <!-- jquery -->
+        <script src="js/jquery.js"></script>
+        
+        <!-- wow script -->
+        <script src="js/wow/wow.min.js"></script>
+        
+        
+       
+        <!-- jquery mobile -->
+        <script src="js/mobile/touchSwipe.min.js"></script>
+        <script src="js/respond/respond.js"></script>
+        
+      
+        <!-- custom script -->
+        <script src="js/script.js"></script>
+
 </body>
 </html> 
